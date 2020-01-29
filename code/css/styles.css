@@ -1,0 +1,45 @@
+a {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+p:hover {
+    font-size: 40px;
+}
+
+* {
+    margin: 0;
+}
+
+div {
+    width: 50px;
+    height: 50px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.firstDiv {
+    background-color: green;
+}
+
+.secondDiv {
+    background-color: red;
+}
+
+.thirdDiv {
+    background-color: blue;
+}
+
+.myCalendar {
+    color: tomato;
+    font-size: 40px;
+}
