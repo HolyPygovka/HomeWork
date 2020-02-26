@@ -1,0 +1,27 @@
+// main: ../styles.less
+.first_block {
+    background-color: pink;
+    p {
+        margin: 10px;
+        background-color: tomato;
+        span {
+            color: yellow;
+        }
+        &:hover {
+            font-size: 30px;
+            background-color: darken(tomato, 20%);
+        }
+        @media @breakpoint-lp {
+            font-size: 30px;
+        }
+        @media @breakpoint-mb {
+            font-size: 40px;
+        }
+    }
+    .inner_block {
+        background-color: #fff;
+        @media @breakpoint-lp {
+            color: green;
+        }
+    }
+}

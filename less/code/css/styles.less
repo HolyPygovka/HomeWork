@@ -1,0 +1,27 @@
+@import "variables";
+@import "mixins";
+@import "./blocks/first_block";
+
+.btn {
+    padding: 10px 30px;
+    .btnmixin(@secondary);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer {
+    .btn {
+        .btnmixin(yellow);
+    }
+}
+
+body {
+    background-color: @primary;
+}
+
+p {
+    background-color: @secondary;
+    background-image: url("@{img}/logo.png");
+}
+
